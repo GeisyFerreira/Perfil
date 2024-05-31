@@ -1,0 +1,46 @@
+        body {
+            background: url('Gif.gif'); 
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+           
+        }
+
+        text {
+            text-align: justify; /* Texto justificado */
+            font-size: 30px;
+            font-family: 'Times New Roman', Times, serif;
+            color: #2f0283;
+        }
+
+        .container {
+            background: rgba(29, 49, 116, 0.8);
+            padding: 20px;
+            border-radius: 15px;
+            width: 50%;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px auto;
+        }
+
+        .img {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        
+        .img img {
+            max-width: 100%; /* Adicionando este estilo para garantir que a imagem não ultrapasse o contêiner */
+            height: auto; /* Isso garante que a proporção da imagem seja mantida ao redimensionar */
+            max-height: 300px; /* Definindo uma altura máxima para a imagem */
+        }
+        
+
+        .text {
+            text-align: left;
+            background:rgba(29, 49, 116, 0.8);
+            padding: 20px;
+            border-radius: 15px;
+            color: white;
+        }
